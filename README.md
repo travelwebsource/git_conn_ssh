@@ -33,4 +33,4 @@ Test it : Open a existing Repo or create a test-repo on your git acct ( not a go
     ---> Open Terminal ---> `git clone git@github.com:travelwebsource/git_conn_ssh.git` Enter
 
     Now it will download the complete repo to your local machine 
-    We didnt have to use password or username to autheticate to sign in`
+    We don't have to use password or username to autheticate to sign in`
