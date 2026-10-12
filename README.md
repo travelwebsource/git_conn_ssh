@@ -11,12 +11,12 @@
 5. Once we have created the ssh keys on local machine --> sign into github.com acct
     
 6. Click Profile ---> Settings ---> SSH and GPG keys ---> New SSH key
-    ---> Give a name, Select how Key Tyep : Authentication / Sign in
+    ---> Give a name, Select how Key Type : Authentication / Sign in
     ---> Copy the .pub key from your local machine
     ---> To copy: `cat id_rsa.pub` ---> then copy the ssh
     ---> In git Key textarea paste it.
     ---> Click Add SSH key
-7. goto terminal ---> `ssh -T git@github.com (This will test if our connection is successful)
+7. Open terminal run ---> `ssh -T git@github.com (This will test if our connection is successful)
     ---> You will see the following msg:
     ( Warning: Permanently added the ECDSA host key for IP address '<Address>' to the list of known hosts.
         Hi travelwebsource! You've successfully authenticated, but GitHub does not provide shell access. )
